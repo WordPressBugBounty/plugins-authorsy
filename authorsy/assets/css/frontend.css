@@ -1,0 +1,397 @@
+/*!************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./assets/src/scss/frontend.scss ***!
+  \************************************************************************************************************************/
+:root {
+  --ea-color-white: #ffffff;
+  --ea-color-black: #000000;
+  --ea-color-light-grey: #eaeaea;
+  --ea-color-light-blue: #f5fafe;
+  --ea-color-main: #275CDE;
+  --ea-color-gradient: linear-gradient(20deg, #275CDE 0%, #1044c4 100%);
+  --ea-color-secondary: linear-gradient(40deg, #275CDE 0%, #1044c4 80%);
+  --ea-color-main-active: #275CDE;
+}
+
+.mb-0 {
+  margin: 0 !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+.ant-btn-primary {
+  background: var(--ea-color-gradient);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-color: var(--ea-color-main);
+}
+
+.ant-switch-checked {
+  background: var(--ea-color-gradient);
+}
+
+.ea-author-box-item {
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  margin-bottom: 20px;
+}
+
+.ea-author-box {
+  display: flex;
+  gap: 20px;
+}
+.ea-author-box .ea-author-img img {
+  max-width: 100%;
+}
+.ea-author-box .ea-author-info {
+  flex: 0 0 80%;
+  max-width: 80%;
+}
+.ea-author-box .ea-author-name {
+  margin: 0 0 8px;
+  line-height: 20px;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.ea-author-box .ea-author-name a {
+  text-decoration: none;
+  color: var(--ea-color-black);
+}
+.ea-author-box .ea-author-name a:hover {
+  color: var(--ea-color-main);
+}
+.ea-author-box .ea-author-description {
+  font-size: 16px;
+  margin: 0 0 15px;
+  color: #666;
+}
+.ea-author-box .ea-author-socials {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 8px;
+}
+.ea-author-box .ea-author-socials li a {
+  color: var(--ea-color-black);
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+}
+.ea-author-box .ea-author-socials li a i {
+  vertical-align: middle;
+}
+.ea-author-box .ea-social_outline li a {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+}
+.ea-author-box .ea-social_fill li a {
+  background-color: #666;
+  color: #fff;
+}
+.ea-author-box .author-website a {
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-bottom: 12px;
+  display: inline-block;
+  color: var(--ea-color-main);
+  text-decoration: none;
+}
+
+.ea-author-title-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ea-author-designation {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.ea-author-extra-bio-wrap {
+  padding-top: 20px;
+  border-top: 1px solid #eaeaea;
+  margin-top: 20px;
+}
+
+.ea-social-left {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.ea-social-left .ea-author-socials {
+  width: 50px;
+}
+
+.ea-author-box-style5 {
+  text-align: center;
+}
+.ea-author-box-style5 .ea-author-box {
+  flex-direction: column;
+  text-align: center;
+}
+.ea-author-box-style5 .ea-author-info {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.ea-author-box-style5 .ea-author-socials,
+.ea-author-box-style5 .ea-author-extra-bio {
+  justify-content: center;
+}
+
+.ea-author-box-style2 .ea-author-socials {
+  margin-bottom: 8px;
+}
+
+.ea-author-extra-bio-title {
+  font-size: 15px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.ea-social-left .ea-author-socials {
+  margin-right: 10px;
+}
+
+.authorsy-like-box-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+.authorsy-like-box-wrapper .authorsy-like-box-title {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+.ea-like-dislike-btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  /* Applies to all tooltips */
+  /* Make the tooltips respond to hover */
+  /* don't show empty tooltips */
+  /* FLOW: UP */
+  /* FLOW: DOWN */
+  /* FLOW: LEFT */
+  /* FLOW: RIGHT */
+  /* KEYFRAMES */
+  /* FX All The Things */
+}
+.ea-like-dislike-btn button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #000;
+}
+.ea-like-dislike-btn button i {
+  font-size: 35px;
+  display: block;
+  margin-bottom: 6px;
+  color: #777;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+}
+.ea-like-dislike-btn button:hover i {
+  transform: scale(1.3);
+}
+.ea-like-dislike-btn button.ea-like:hover i, .ea-like-dislike-btn button.ea-like.ea-active i {
+  color: #19509c;
+}
+.ea-like-dislike-btn button.ea-loves:hover i, .ea-like-dislike-btn button.ea-loves.ea-active i {
+  color: #FF559D;
+}
+.ea-like-dislike-btn button.ea-angry:hover i, .ea-like-dislike-btn button.ea-angry.ea-active i {
+  color: #f00;
+}
+.ea-like-dislike-btn [disabled] {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+.ea-like-dislike-btn [disabled]:hover i {
+  transform: scale(1);
+}
+.ea-like-dislike-btn [disabled][tooltip]:before, .ea-like-dislike-btn [disabled][tooltip]:after {
+  display: none !important;
+}
+.ea-like-dislike-btn [tooltip] {
+  position: relative; /* opinion 1 */
+}
+.ea-like-dislike-btn [tooltip]::before,
+.ea-like-dislike-btn [tooltip]::after {
+  text-transform: none; /* opinion 2 */
+  font-size: 0.9em; /* opinion 3 */
+  line-height: 1;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  display: none;
+  opacity: 0;
+}
+.ea-like-dislike-btn [tooltip]::before {
+  content: "";
+  border: 5px solid transparent; /* opinion 4 */
+  z-index: 1001; /* absurdity 1 */
+}
+.ea-like-dislike-btn [tooltip]::after {
+  content: attr(tooltip); /* magic! */
+  /* most of the rest of this is opinion */
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  /* 
+    Let the content set the size of the tooltips 
+    but this will also keep them from being obnoxious
+    */
+  min-width: 3em;
+  max-width: 21em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 1ch 1.5ch;
+  border-radius: 0.3ch;
+  box-shadow: 0 1em 2em -0.5em rgba(0, 0, 0, 0.35);
+  background: #333;
+  color: #fff;
+  z-index: 1000; /* absurdity 2 */
+}
+.ea-like-dislike-btn [tooltip]:hover::before,
+.ea-like-dislike-btn [tooltip]:hover::after {
+  display: block;
+}
+.ea-like-dislike-btn [tooltip=""]::before,
+.ea-like-dislike-btn [tooltip=""]::after {
+  display: none !important;
+}
+.ea-like-dislike-btn [tooltip]:not([flow])::before,
+.ea-like-dislike-btn [tooltip][flow^=up]::before {
+  bottom: 120%;
+  border-bottom-width: 0;
+  border-top-color: #333;
+}
+.ea-like-dislike-btn [tooltip]:not([flow])::after,
+.ea-like-dislike-btn [tooltip][flow^=up]::after {
+  bottom: calc(100% + 15px);
+}
+.ea-like-dislike-btn [tooltip]:not([flow])::before,
+.ea-like-dislike-btn [tooltip]:not([flow])::after,
+.ea-like-dislike-btn [tooltip][flow^=up]::before,
+.ea-like-dislike-btn [tooltip][flow^=up]::after {
+  left: 50%;
+  transform: translate(-50%, -0.5em);
+}
+.ea-like-dislike-btn [tooltip][flow^=down]::before {
+  top: 100%;
+  border-top-width: 0;
+  border-bottom-color: #333;
+}
+.ea-like-dislike-btn [tooltip][flow^=down]::after {
+  top: calc(100% + 15px);
+}
+.ea-like-dislike-btn [tooltip][flow^=down]::before,
+.ea-like-dislike-btn [tooltip][flow^=down]::after {
+  left: 50%;
+  transform: translate(-50%, 0.5em);
+}
+.ea-like-dislike-btn [tooltip][flow^=left]::before {
+  top: 50%;
+  border-right-width: 0;
+  border-left-color: #333;
+  left: calc(0em - 5px);
+  transform: translate(-0.5em, -50%);
+}
+.ea-like-dislike-btn [tooltip][flow^=left]::after {
+  top: 50%;
+  right: calc(100% + 5px);
+  transform: translate(-0.5em, -50%);
+}
+.ea-like-dislike-btn [tooltip][flow^=right]::before {
+  top: 50%;
+  border-left-width: 0;
+  border-right-color: #333;
+  right: calc(0em - 15px);
+  transform: translate(0.5em, -50%);
+}
+.ea-like-dislike-btn [tooltip][flow^=right]::after {
+  top: 50%;
+  left: calc(100% + 15px);
+  transform: translate(0.5em, -50%);
+}
+@keyframes tooltips-vert {
+  to {
+    opacity: 0.9;
+    transform: translate(-50%, 0);
+  }
+}
+@keyframes tooltips-horz {
+  to {
+    opacity: 0.9;
+    transform: translate(0, -50%);
+  }
+}
+.ea-like-dislike-btn [tooltip]:not([flow]):hover::before,
+.ea-like-dislike-btn [tooltip]:not([flow]):hover::after,
+.ea-like-dislike-btn [tooltip][flow^=up]:hover::before,
+.ea-like-dislike-btn [tooltip][flow^=up]:hover::after,
+.ea-like-dislike-btn [tooltip][flow^=down]:hover::before,
+.ea-like-dislike-btn [tooltip][flow^=down]:hover::after {
+  animation: tooltips-vert 300ms ease-out forwards;
+}
+
+.authorsy-modal-wrapper {
+  padding: 10px;
+  top: 120%;
+}
+.authorsy-modal-wrapper button {
+  padding: 8px 20px;
+  font-size: 13px;
+  background-color: var(--ea-color-main);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.authorsy-modal-wrapper .social-share-modal-title {
+  line-height: 14px;
+}
+.authorsy-modal-wrapper textarea {
+  width: 100%;
+  height: 80px;
+}
+
+@media (max-width: 500px) {
+  .ea-author-extra-bio li,
+  .ea-author-extra-bio li a {
+    display: block;
+    width: 100%;
+  }
+  .authorsy-top-voted-grid-wrapper .authorsy-top-voted-grid {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .authorsy-top-voted-list {
+    flex-wrap: nowrap;
+  }
+}

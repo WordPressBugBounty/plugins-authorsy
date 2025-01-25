@@ -1,0 +1,269 @@
+/*!*********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./assets/src/scss/admin.scss ***!
+  \*********************************************************************************************************************/
+:root {
+  --ea-color-white: #ffffff;
+  --ea-color-black: #000000;
+  --ea-color-light-grey: #eaeaea;
+  --ea-color-light-blue: #f5fafe;
+  --ea-color-main: #275CDE;
+  --ea-color-gradient: linear-gradient(20deg, #275CDE 0%, #1044c4 100%);
+  --ea-color-secondary: linear-gradient(40deg, #275CDE 0%, #1044c4 80%);
+  --ea-color-main-active: #275CDE;
+}
+
+.mb-0 {
+  margin: 0 !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+.ant-btn-primary {
+  background: var(--ea-color-gradient);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -ms-border-radius: 6px;
+  border-color: var(--ea-color-main);
+}
+
+.ant-switch-checked {
+  background: var(--ea-color-gradient);
+}
+
+.mb-60 {
+  margin-bottom: 60px !important;
+}
+
+.ea-color-picker .wp-picker-holder {
+  position: absolute;
+  bottom: 104%;
+  z-index: 99;
+}
+
+.authorsy-settings-wrapper .ant-tabs-content-holder,
+.authorsy-settings-wrapper .authorsy-shortcodes,
+.authorsy-author-wrapper .ant-tabs-content-holder,
+.authorsy-author-wrapper .authorsy-shortcodes {
+  background-color: var(--ea-color-white);
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+}
+.authorsy-settings-wrapper .ant-tabs-tab.ant-tabs-tab-active,
+.authorsy-author-wrapper .ant-tabs-tab.ant-tabs-tab-active {
+  background: var(--ea-color-white);
+}
+.authorsy-settings-wrapper .ant-tabs-nav-list,
+.authorsy-author-wrapper .ant-tabs-nav-list {
+  padding-top: 40px;
+}
+.authorsy-settings-wrapper .ant-tabs-nav-wrap,
+.authorsy-author-wrapper .ant-tabs-nav-wrap {
+  min-width: 170px;
+}
+
+.authorsy-shortcodes-wrapper {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.authorsy-author-wrapper {
+  max-width: 800px;
+  margin: auto;
+}
+
+.ant-tabs-left > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane {
+  padding-left: 0;
+}
+
+.ant-tabs-left > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-left > div > .ant-tabs-nav .ant-tabs-ink-bar {
+  right: auto;
+  left: 0;
+}
+
+.general-sitting {
+  padding: 20px;
+  border: 1px solid var(--ea-color-light-grey);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+}
+.general-sitting .ant-form-item {
+  margin-bottom: 0;
+}
+
+.powerfull-theme img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+}
+
+.ea-form-input .ant-col.ant-form-item-control {
+  align-items: end;
+}
+
+.tt-color-setting {
+  justify-content: end;
+  display: flex;
+}
+
+.ea-settings h5.ant-typography {
+  font-size: 15px;
+}
+.ea-settings .ea-custom_css .ant-row.ant-form-item-row {
+  display: block;
+}
+.ea-settings .ea-custom_css .ant-row.ant-form-item-row label {
+  font-size: 18px;
+  font-weight: 600;
+}
+.ea-settings .ea-custom_css .ant-form-item-control-input {
+  width: 100%;
+}
+.ea-settings .ea-custom_css textarea {
+  background-color: #444;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  color: var(--ea-color-white);
+  padding: 20px;
+}
+.ea-settings .ea-custom_css textarea::placeholder {
+  color: #888;
+}
+
+.ea-container-wrapper {
+  max-width: 700px;
+  margin: auto;
+  background: var(--ea-color-white);
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.ea-input .ant-input-lg, .ea-input .ant-select:not(.ant-select-customize-input) .ant-select-selector, .ea-input .ant-input-affix-wrapper, .ea-input .ant-input-number, .ea-input .ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector {
+  border-color: #e2e2e3;
+  border-radius: 6px;
+  height: 42px;
+  padding: 0 15px;
+  font-size: 14px;
+}
+.ea-input .ant-input-lg::placeholder, .ea-input .ant-select:not(.ant-select-customize-input) .ant-select-selector::placeholder, .ea-input .ant-input-affix-wrapper::placeholder, .ea-input .ant-input-number::placeholder, .ea-input .ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector::placeholder {
+  color: #888;
+}
+
+.ea-input .ant-select-multiple .ant-select-selector {
+  height: auto !important;
+}
+
+.ant-form-item-label > label {
+  font-weight: 500;
+}
+
+.ea-social-list {
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 20px;
+  background: #f6f6f6;
+  padding: 10px 20px 0;
+  border-radius: 10px;
+}
+.ea-social-list .ea-input-icon {
+  min-width: 121px;
+}
+.ea-social-list .ant-space-item:last-of-type {
+  align-self: center;
+}
+.ea-social-list .ea-close {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+.layouts-style .ant-radio-button-wrapper {
+  height: auto;
+}
+.layouts-style #settings_select_layout {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.layouts-style #settings_select_layout .ant-radio-button-wrapper {
+  padding: 0;
+}
+.layouts-style #settings_select_layout .ant-radio-button-wrapper span > span {
+  padding: 20px 30px;
+  display: inline-block;
+}
+.layouts-style .ant-radio-button-wrapper-checked {
+  border: 2px solid;
+}
+.layouts-style.ea-form-input .ant-form-item-control {
+  align-items: start;
+}
+
+.ea-layout img {
+  object-fit: contain;
+}
+
+.ea-soocial-row {
+  padding: 6px 14px;
+  border: 1px solid #eaeaea;
+  margin-bottom: 10px;
+}
+.ea-soocial-row .ant-typography {
+  font-size: 14px;
+}
+
+.ea-customize-layout {
+  border: none;
+  background-color: transparent;
+}
+.ea-customize-layout .ant-form-item-label {
+  text-align: left;
+}
+.ea-customize-layout .ant-collapse-header {
+  background-color: #f9f9f9;
+}
+.ea-customize-layout .ant-collapse-item {
+  border: 1px solid #eaeaea;
+  margin-bottom: 20px;
+}
+.ea-customize-layout .ant-typography {
+  margin: 0;
+}
+.ea-customize-layout span.ant-typography {
+  color: #777;
+}
+.ea-customize-layout .ant-collapse-content {
+  border-top: none;
+}
+
+.authorsy-action-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 21px;
+}
+
+.shortcode-layout-style .ant-radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

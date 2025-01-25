@@ -1,0 +1,1102 @@
+# Copyright (C) 2024 themeplugs
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Authorsy 1.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/authorsy\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-12T17:35:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: authorsy\n"
+
+#. Plugin Name of the plugin
+#: authorsy.php
+#: core/admin/menu.php:72
+#: core/admin/menu.php:73
+msgid "Authorsy"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: authorsy.php
+msgid "https://themeplugs.com/"
+msgstr ""
+
+#. Description of the plugin
+#: authorsy.php
+msgid "Author box and bio link for WordPress."
+msgstr ""
+
+#. Author of the plugin
+#: authorsy.php
+msgid "themeplugs"
+msgstr ""
+
+#. translators: Error Message
+#: base/api.php:56
+msgid "%s can't be empty"
+msgstr ""
+
+#: base/api.php:79
+msgid "Invalid nonce."
+msgstr ""
+
+#: base/role.php:54
+msgid "Guest"
+msgstr ""
+
+#: bootstrap.php:33
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: bootstrap.php:40
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: core/admin/hooks.php:40
+#: core/admin/menu.php:56
+#: assets/js/dashboard.js:479
+#: assets/src/admin/pages/settings/index.js:60
+msgid "Settings"
+msgstr ""
+
+#: core/admin/menu.php:48
+#: assets/js/dashboard.js:199
+#: assets/src/admin/pages/author/AuthorList.js:118
+msgid "Authors"
+msgstr ""
+
+#: core/admin/menu.php:63
+#: assets/js/dashboard.js:579
+#: assets/src/admin/pages/shortcodes/index.js:54
+msgid "Shortcodes"
+msgstr ""
+
+#: core/authors/api-author.php:240
+#: core/authors/api-author.php:278
+#: core/authors/api-author.php:302
+#: core/authors/api-author.php:343
+#: core/authors/api-author.php:484
+msgid "Invalid user id."
+msgstr ""
+
+#: core/authors/api-author.php:313
+#: core/authors/api-author.php:357
+msgid "Successfully deleted author"
+msgstr ""
+
+#. translators: Action
+#: core/authors/api-author.php:463
+msgid "Successfully %s author"
+msgstr ""
+
+#: core/authors/api-author.php:507
+msgid "Failed to duplicate author"
+msgstr ""
+
+#: core/authors/api-author.php:519
+msgid "Successfully duplicated author"
+msgstr ""
+
+#: core/authors/author-meta.php:50
+msgid "Select Muliple Authors"
+msgstr ""
+
+#: core/authors/author-meta.php:78
+msgid "Select Authors:"
+msgstr ""
+
+#: core/like-dislike/api-like-dislike.php:82
+#: core/like-dislike/api-like-dislike.php:128
+msgid "Invalid post id."
+msgstr ""
+
+#: core/like-dislike/hooks.php:83
+msgid "Rate Your Vibes"
+msgstr ""
+
+#: core/like-dislike/like-dislike-meta.php:54
+msgid "Authorsy Like & Dislike"
+msgstr ""
+
+#: core/like-dislike/like-dislike-meta.php:84
+msgid "Disable like box "
+msgstr ""
+
+#: core/like-dislike/like-dislike-meta.php:88
+msgid "Likes:"
+msgstr ""
+
+#: core/like-dislike/like-dislike-meta.php:92
+msgid "Dislikes:"
+msgstr ""
+
+#: core/like-dislike/like-dislike-meta.php:96
+msgid "Loves:"
+msgstr ""
+
+#: core/like-dislike/like-dislike-meta.php:100
+msgid "Angrys:"
+msgstr ""
+
+#: core/like-dislike/like-dislike-meta.php:142
+#: assets/js/dashboard.js:479
+#: assets/src/admin/pages/settings/index.js:46
+msgid "Likes & Dislikes"
+msgstr ""
+
+#: core/like-dislike/like-dislike-meta.php:153
+msgid "Likes: "
+msgstr ""
+
+#: core/like-dislike/like-dislike-meta.php:154
+msgid "Dislikes: "
+msgstr ""
+
+#: core/like-dislike/like-dislike-meta.php:155
+msgid "Loves: "
+msgstr ""
+
+#: core/like-dislike/like-dislike-meta.php:156
+msgid "Angers: "
+msgstr ""
+
+#: core/settings/api-settings.php:68
+msgid "Get all settings"
+msgstr ""
+
+#: core/settings/api-settings.php:92
+msgid "Settings successfully updated"
+msgstr ""
+
+#: utils/global-helper.php:41
+#: assets/js/dashboard.js:299
+#: assets/src/admin/pages/author/Update.js:56
+msgid "Extra Bio"
+msgstr ""
+
+#: assets/js/dashboard.js:39
+#: assets/src/admin/app.js:16
+msgid "Loading..."
+msgstr ""
+
+#: assets/js/dashboard.js:49
+#: assets/src/admin/components/AddNewBtn.js:17
+msgid "Add New"
+msgstr ""
+
+#: assets/js/dashboard.js:99
+#: assets/src/admin/components/MainPageHeader.js:18
+msgid "Need Help?"
+msgstr ""
+
+#: assets/js/dashboard.js:99
+#: assets/src/admin/components/MainPageHeader.js:30
+msgid "Documentation"
+msgstr ""
+
+#: assets/js/dashboard.js:99
+#: assets/src/admin/components/MainPageHeader.js:48
+msgid "Help"
+msgstr ""
+
+#: assets/js/dashboard.js:199
+#: assets/src/admin/pages/author/AuthorList.js:88
+msgid "Are you sure delete this author?"
+msgstr ""
+
+#: assets/js/dashboard.js:199
+#: assets/src/admin/pages/author/AuthorList.js:89
+#: assets/src/admin/pages/author/AuthorList.js:144
+msgid "Yes"
+msgstr ""
+
+#: assets/js/dashboard.js:199
+#: assets/src/admin/pages/author/AuthorList.js:91
+#: assets/src/admin/pages/author/AuthorList.js:146
+msgid "No"
+msgstr ""
+
+#: assets/js/dashboard.js:199
+#: assets/src/admin/pages/author/AuthorList.js:140
+msgid "Are you sure delete selected authors?"
+msgstr ""
+
+#: assets/js/dashboard.js:199
+#: assets/src/admin/pages/author/AuthorList.js:154
+msgid "Bulk Delete"
+msgstr ""
+
+#: assets/js/dashboard.js:199
+#: assets/src/admin/pages/author/AuthorList.js:158
+msgid "items Selected"
+msgstr ""
+
+#: assets/js/dashboard.js:209
+#: assets/src/admin/pages/author/Create.js:48
+msgid "Back"
+msgstr ""
+
+#: assets/js/dashboard.js:209
+#: assets/src/admin/pages/author/Create.js:69
+msgid "Create Author"
+msgstr ""
+
+#: assets/js/dashboard.js:219
+#: assets/src/admin/pages/author/ExtraBio.js:105
+msgid "Author extra bio"
+msgstr ""
+
+#: assets/js/dashboard.js:219
+#: assets/src/admin/pages/author/ExtraBio.js:108
+msgid "Add extra bio for your author."
+msgstr ""
+
+#: assets/js/dashboard.js:229
+#: assets/src/admin/pages/author/ExtraBioFormList.js:138
+msgid " Add Extra Bio"
+msgstr ""
+
+#: assets/js/dashboard.js:239
+#: assets/src/admin/pages/author/ExtraBioFormModal.js:76
+msgid "Update Extra Bio"
+msgstr ""
+
+#: assets/js/dashboard.js:239
+#: assets/src/admin/pages/author/ExtraBioFormModal.js:77
+msgid "Add Extra Bio"
+msgstr ""
+
+#: assets/js/dashboard.js:239
+#: assets/js/dashboard.js:279
+#: assets/src/admin/pages/author/ExtraBioFormModal.js:79
+#: assets/src/admin/pages/author/SocialFormModal.js:79
+msgid "Cancel"
+msgstr ""
+
+#: assets/js/dashboard.js:239
+#: assets/js/dashboard.js:279
+#: assets/js/dashboard.js:529
+#: assets/src/admin/pages/author/ExtraBioFormModal.js:109
+#: assets/src/admin/pages/author/SocialFormModal.js:109
+#: assets/src/admin/pages/settings/layoutCustomize/ExtraBioOption.js:32
+msgid "Title"
+msgstr ""
+
+#: assets/js/dashboard.js:239
+#: assets/js/dashboard.js:279
+#: assets/src/admin/pages/author/ExtraBioFormModal.js:112
+#: assets/src/admin/pages/author/SocialFormModal.js:112
+msgid "Social title"
+msgstr ""
+
+#: assets/js/dashboard.js:239
+#: assets/js/dashboard.js:279
+#: assets/src/admin/pages/author/ExtraBioFormModal.js:123
+#: assets/src/admin/pages/author/SocialFormModal.js:123
+msgid "Select Icon"
+msgstr ""
+
+#: assets/js/dashboard.js:239
+#: assets/js/dashboard.js:279
+#: assets/src/admin/pages/author/ExtraBioFormModal.js:128
+#: assets/src/admin/pages/author/SocialFormModal.js:128
+msgid "URL"
+msgstr ""
+
+#: assets/js/dashboard.js:239
+#: assets/src/admin/pages/author/ExtraBioFormModal.js:132
+msgid "E.g. https://www.paypal.com"
+msgstr ""
+
+#: assets/js/dashboard.js:239
+#: assets/js/dashboard.js:279
+#: assets/js/dashboard.js:509
+#: assets/src/admin/pages/author/ExtraBioFormModal.js:137
+#: assets/src/admin/pages/author/SocialFormModal.js:137
+#: assets/src/admin/pages/settings/layoutCustomize/DescriptionOption.js:56
+msgid "Color"
+msgstr ""
+
+#: assets/js/dashboard.js:239
+#: assets/js/dashboard.js:279
+#: assets/src/admin/pages/author/ExtraBioFormModal.js:150
+#: assets/src/admin/pages/author/SocialFormModal.js:150
+msgid "Background Color"
+msgstr ""
+
+#: assets/js/dashboard.js:249
+#: assets/src/admin/pages/author/FormField.js:22
+msgid "First Name"
+msgstr ""
+
+#: assets/js/dashboard.js:249
+#: assets/src/admin/pages/author/FormField.js:32
+msgid "Enter your first name"
+msgstr ""
+
+#: assets/js/dashboard.js:249
+#: assets/src/admin/pages/author/FormField.js:37
+msgid "Last Name"
+msgstr ""
+
+#: assets/js/dashboard.js:249
+#: assets/src/admin/pages/author/FormField.js:47
+msgid "Enter your last name"
+msgstr ""
+
+#: assets/js/dashboard.js:249
+#: assets/js/dashboard.js:289
+#: assets/src/admin/pages/author/FormField.js:52
+#: assets/src/admin/pages/author/TableHeader.js:44
+msgid "Email"
+msgstr ""
+
+#: assets/js/dashboard.js:249
+#: assets/src/admin/pages/author/FormField.js:62
+msgid "Enter your email"
+msgstr ""
+
+#: assets/js/dashboard.js:249
+#: assets/src/admin/pages/author/FormField.js:65
+msgid "Select User Role"
+msgstr ""
+
+#: assets/js/dashboard.js:249
+#: assets/src/admin/pages/author/FormField.js:88
+msgid "Select user role"
+msgstr ""
+
+#: assets/js/dashboard.js:259
+#: assets/src/admin/pages/author/Social.js:108
+msgid "Add social bio for your author."
+msgstr ""
+
+#: assets/js/dashboard.js:259
+#: assets/src/admin/pages/author/Social.js:130
+msgid "Save Updates"
+msgstr ""
+
+#: assets/js/dashboard.js:269
+#: assets/src/admin/pages/author/SocialFormList.js:145
+msgid " Add Social"
+msgstr ""
+
+#: assets/js/dashboard.js:279
+#: assets/src/admin/pages/author/SocialFormModal.js:76
+msgid "Update social"
+msgstr ""
+
+#: assets/js/dashboard.js:279
+#: assets/src/admin/pages/author/SocialFormModal.js:77
+msgid "Add social"
+msgstr ""
+
+#: assets/js/dashboard.js:279
+#: assets/src/admin/pages/author/SocialFormModal.js:132
+msgid "E.g. https://www.facebook.com"
+msgstr ""
+
+#: assets/js/dashboard.js:289
+#: assets/src/admin/pages/author/TableHeader.js:34
+msgid "ID"
+msgstr ""
+
+#: assets/js/dashboard.js:289
+#: assets/src/admin/pages/author/TableHeader.js:39
+msgid "Name"
+msgstr ""
+
+#: assets/js/dashboard.js:289
+#: assets/src/admin/pages/author/TableHeader.js:49
+msgid "Role"
+msgstr ""
+
+#: assets/js/dashboard.js:289
+#: assets/src/admin/pages/author/TableHeader.js:69
+msgid "Edit Author"
+msgstr ""
+
+#: assets/js/dashboard.js:289
+#: assets/src/admin/pages/author/TableHeader.js:79
+msgid "Delete Author"
+msgstr ""
+
+#: assets/js/dashboard.js:299
+#: assets/src/admin/pages/author/Update.js:46
+msgid "Overview"
+msgstr ""
+
+#: assets/js/dashboard.js:299
+#: assets/src/admin/pages/author/Update.js:51
+msgid "Social"
+msgstr ""
+
+#: assets/js/dashboard.js:299
+#: assets/src/admin/pages/author/Update.js:62
+msgid "Password & Security"
+msgstr ""
+
+#: assets/js/dashboard.js:299
+#: assets/src/admin/pages/author/Update.js:71
+msgid "Account Settings"
+msgstr ""
+
+#: assets/js/dashboard.js:309
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/author/UpdateGeneralInfo.js:105
+#: assets/src/admin/pages/settings/Layouts.js:169
+msgid "Designation"
+msgstr ""
+
+#: assets/js/dashboard.js:309
+#: assets/src/admin/pages/author/UpdateGeneralInfo.js:109
+msgid "Enter your designation"
+msgstr ""
+
+#: assets/js/dashboard.js:309
+#: assets/src/admin/pages/author/UpdateGeneralInfo.js:112
+msgid "Author Description"
+msgstr ""
+
+#: assets/js/dashboard.js:309
+#: assets/src/admin/pages/author/UpdateGeneralInfo.js:114
+msgid "About the author"
+msgstr ""
+
+#: assets/js/dashboard.js:309
+#: assets/src/admin/pages/author/UpdateGeneralInfo.js:124
+msgid "Update Info"
+msgstr ""
+
+#: assets/js/dashboard.js:319
+#: assets/src/admin/pages/author/UpdatePassowrd.js:66
+msgid "New password "
+msgstr ""
+
+#: assets/js/dashboard.js:319
+#: assets/src/admin/pages/author/UpdatePassowrd.js:95
+msgid "The two passwords that you entered do not match!"
+msgstr ""
+
+#: assets/js/dashboard.js:319
+#: assets/src/admin/pages/author/UpdatePassowrd.js:114
+msgid "Update Password"
+msgstr ""
+
+#: assets/js/dashboard.js:329
+#: assets/src/admin/pages/author/UploadImage.js:23
+msgid "profile photo"
+msgstr ""
+
+#: assets/js/dashboard.js:329
+#: assets/src/admin/pages/author/UploadImage.js:37
+msgid "Change Avatar"
+msgstr ""
+
+#: assets/js/dashboard.js:389
+#: assets/src/admin/pages/settings/AuthorOnHover.js:80
+msgid "Enable Author on Hover"
+msgstr ""
+
+#: assets/js/dashboard.js:389
+#: assets/src/admin/pages/settings/AuthorOnHover.js:81
+msgid "Enable Author on Hover in single page."
+msgstr ""
+
+#: assets/js/dashboard.js:399
+#: assets/src/admin/pages/settings/General.js:78
+msgid "Enable Author Box"
+msgstr ""
+
+#: assets/js/dashboard.js:399
+#: assets/src/admin/pages/settings/General.js:79
+msgid "Enable Author box."
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/js/dashboard.js:559
+#: assets/src/admin/pages/settings/Layouts.js:88
+#: assets/src/admin/pages/shortcodes/AuthorBoxShortcode.js:55
+msgid "Box Style 1"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/js/dashboard.js:559
+#: assets/src/admin/pages/settings/Layouts.js:93
+#: assets/src/admin/pages/shortcodes/AuthorBoxShortcode.js:60
+msgid "Box Style 2"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/js/dashboard.js:559
+#: assets/src/admin/pages/settings/Layouts.js:117
+#: assets/src/admin/pages/shortcodes/AuthorBoxShortcode.js:91
+msgid "Select Layout"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:131
+msgid "Layout Customize:"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:136
+msgid "Author Box Style"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:137
+msgid "Customize your author box"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:147
+msgid "Profile Image"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:148
+msgid "Customize your profile image"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:158
+msgid "Author Name"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:159
+msgid "Customize your Author title"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:170
+msgid "Customize designation"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:180
+msgid "Description"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:181
+msgid "Customize author description"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:191
+msgid "Social Links"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:192
+msgid "Customize social links"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:202
+msgid "Extra Bio Link"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:203
+msgid "Customize author extra bio links"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/src/admin/pages/settings/Layouts.js:214
+msgid "Copy Shortcode"
+msgstr ""
+
+#: assets/js/dashboard.js:409
+#: assets/js/dashboard.js:429
+#: assets/js/dashboard.js:439
+#: assets/js/dashboard.js:449
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/AuthorHoverFrom.js:118
+#: assets/src/admin/pages/settings/forms/GeneralFrom.js:173
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:253
+#: assets/src/admin/pages/settings/Layouts.js:229
+#: assets/src/admin/pages/settings/Styles.js:143
+msgid "Save change"
+msgstr ""
+
+#: assets/js/dashboard.js:419
+#: assets/src/admin/pages/settings/LikesDislikes.js:79
+msgid "Enable Like Dislikes"
+msgstr ""
+
+#: assets/js/dashboard.js:419
+#: assets/src/admin/pages/settings/LikesDislikes.js:80
+msgid "Enable like dislike box on frontend."
+msgstr ""
+
+#: assets/js/dashboard.js:429
+#: assets/src/admin/pages/settings/Styles.js:65
+msgid "Set primary color"
+msgstr ""
+
+#: assets/js/dashboard.js:429
+#: assets/src/admin/pages/settings/Styles.js:66
+msgid "Set your primary color"
+msgstr ""
+
+#: assets/js/dashboard.js:429
+#: assets/src/admin/pages/settings/Styles.js:79
+msgid "Set secondary color"
+msgstr ""
+
+#: assets/js/dashboard.js:429
+#: assets/src/admin/pages/settings/Styles.js:80
+msgid "Set your secondary color"
+msgstr ""
+
+#: assets/js/dashboard.js:429
+#: assets/src/admin/pages/settings/Styles.js:128
+msgid "Custom CSS"
+msgstr ""
+
+#: assets/js/dashboard.js:429
+#: assets/src/admin/pages/settings/Styles.js:129
+#: assets/src/admin/pages/settings/Styles.js:131
+msgid "Please paste appropriate css code snippets to the given area."
+msgstr ""
+
+#: assets/js/dashboard.js:439
+#: assets/src/admin/pages/settings/forms/AuthorHoverFrom.js:72
+msgid "e.g .author-on-hover"
+msgstr ""
+
+#: assets/js/dashboard.js:449
+#: assets/src/admin/pages/settings/forms/GeneralFrom.js:84
+msgid "Author box display on"
+msgstr ""
+
+#: assets/js/dashboard.js:449
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/GeneralFrom.js:85
+#: assets/src/admin/pages/settings/forms/GeneralFrom.js:95
+#: assets/src/admin/pages/settings/forms/GeneralFrom.js:102
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:139
+msgid "Select type"
+msgstr ""
+
+#: assets/js/dashboard.js:449
+#: assets/src/admin/pages/settings/forms/GeneralFrom.js:93
+msgid "Select type which you want to show the author box"
+msgstr ""
+
+#: assets/js/dashboard.js:449
+#: assets/src/admin/pages/settings/forms/GeneralFrom.js:101
+msgid "Author box position"
+msgstr ""
+
+#: assets/js/dashboard.js:449
+#: assets/src/admin/pages/settings/forms/GeneralFrom.js:110
+msgid "Author Position"
+msgstr ""
+
+#: assets/js/dashboard.js:449
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/GeneralFrom.js:112
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:157
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:174
+msgid "Select Option"
+msgstr ""
+
+#: assets/js/dashboard.js:449
+#: assets/src/admin/pages/settings/forms/GeneralFrom.js:118
+msgid "Enable Multiple & Guest Author"
+msgstr ""
+
+#: assets/js/dashboard.js:449
+#: assets/src/admin/pages/settings/forms/GeneralFrom.js:119
+msgid "Enable multiple & guest option to allow multiple author select on post type"
+msgstr ""
+
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:127
+msgid "Display on"
+msgstr ""
+
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:128
+msgid "Select post type which you want to show the likes and dislikes"
+msgstr ""
+
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:137
+msgid "Select type which you want to show the likes and dislikes"
+msgstr ""
+
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:146
+msgid "Position"
+msgstr ""
+
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:147
+msgid "Select postion where you want to show the likes and dislikes"
+msgstr ""
+
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:155
+msgid "Likes and Dislikes Position"
+msgstr ""
+
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:163
+msgid "Restriction"
+msgstr ""
+
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:164
+msgid "Select restriction which type of user can like and dislike"
+msgstr ""
+
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:172
+msgid "Likes and Dislikes Restriction"
+msgstr ""
+
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:181
+msgid "Enable Social Share If Positive Vote"
+msgstr ""
+
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:182
+msgid "Enable social share if positive vote for like and love reaction "
+msgstr ""
+
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:196
+msgid "Enable Feedback From If Nagative Vote"
+msgstr ""
+
+#: assets/js/dashboard.js:459
+#: assets/src/admin/pages/settings/forms/LikeDislikeForm.js:197
+msgid "Enable feedback form if nagative vote for dislike and Angry reaction "
+msgstr ""
+
+#: assets/js/dashboard.js:479
+#: assets/src/admin/pages/settings/index.js:29
+msgid "Author Box Settings"
+msgstr ""
+
+#: assets/js/dashboard.js:479
+#: assets/src/admin/pages/settings/index.js:35
+msgid "Author On Hover"
+msgstr ""
+
+#: assets/js/dashboard.js:479
+#: assets/src/admin/pages/settings/index.js:41
+msgid "Author Box Layouts"
+msgstr ""
+
+#: assets/js/dashboard.js:479
+#: assets/src/admin/pages/settings/index.js:51
+msgid "Styles"
+msgstr ""
+
+#: assets/js/dashboard.js:489
+#: assets/src/admin/pages/settings/layoutCustomize/AuthorBoxStyle.js:20
+msgid "Wrapper Padding"
+msgstr ""
+
+#: assets/js/dashboard.js:489
+#: assets/src/admin/pages/settings/layoutCustomize/AuthorBoxStyle.js:24
+msgid "Set box padding"
+msgstr ""
+
+#: assets/js/dashboard.js:489
+#: assets/src/admin/pages/settings/layoutCustomize/AuthorBoxStyle.js:30
+msgid "Box Border Radius"
+msgstr ""
+
+#: assets/js/dashboard.js:489
+#: assets/src/admin/pages/settings/layoutCustomize/AuthorBoxStyle.js:34
+msgid "Set box border radius"
+msgstr ""
+
+#: assets/js/dashboard.js:489
+#: assets/src/admin/pages/settings/layoutCustomize/AuthorBoxStyle.js:42
+msgid "Box Background Color"
+msgstr ""
+
+#: assets/js/dashboard.js:499
+#: assets/js/dashboard.js:509
+#: assets/js/dashboard.js:519
+#: assets/js/dashboard.js:529
+#: assets/js/dashboard.js:549
+#: assets/src/admin/pages/settings/layoutCustomize/AuthorNameOption.js:21
+#: assets/src/admin/pages/settings/layoutCustomize/AuthorNameOption.js:25
+#: assets/src/admin/pages/settings/layoutCustomize/DescriptionOption.js:32
+#: assets/src/admin/pages/settings/layoutCustomize/DescriptionOption.js:36
+#: assets/src/admin/pages/settings/layoutCustomize/DesignationOption.js:32
+#: assets/src/admin/pages/settings/layoutCustomize/DesignationOption.js:36
+#: assets/src/admin/pages/settings/layoutCustomize/ExtraBioOption.js:50
+#: assets/src/admin/pages/settings/layoutCustomize/ExtraBioOption.js:54
+#: assets/src/admin/pages/settings/layoutCustomize/SocialOption.js:41
+#: assets/src/admin/pages/settings/layoutCustomize/SocialOption.js:45
+msgid "Font Size"
+msgstr ""
+
+#: assets/js/dashboard.js:499
+#: assets/js/dashboard.js:509
+#: assets/js/dashboard.js:519
+#: assets/src/admin/pages/settings/layoutCustomize/AuthorNameOption.js:31
+#: assets/src/admin/pages/settings/layoutCustomize/DescriptionOption.js:42
+#: assets/src/admin/pages/settings/layoutCustomize/DesignationOption.js:42
+msgid "Margin Bottom"
+msgstr ""
+
+#: assets/js/dashboard.js:499
+#: assets/src/admin/pages/settings/layoutCustomize/AuthorNameOption.js:35
+msgid "Set Title Margin Bottom"
+msgstr ""
+
+#: assets/js/dashboard.js:499
+#: assets/src/admin/pages/settings/layoutCustomize/AuthorNameOption.js:43
+msgid "Title Color"
+msgstr ""
+
+#: assets/js/dashboard.js:509
+#: assets/src/admin/pages/settings/layoutCustomize/DescriptionOption.js:21
+msgid "Hide Description"
+msgstr ""
+
+#: assets/js/dashboard.js:509
+#: assets/src/admin/pages/settings/layoutCustomize/DescriptionOption.js:26
+msgid "Hide description url"
+msgstr ""
+
+#: assets/js/dashboard.js:509
+#: assets/src/admin/pages/settings/layoutCustomize/DescriptionOption.js:46
+msgid "Set description margin bottom"
+msgstr ""
+
+#: assets/js/dashboard.js:519
+#: assets/src/admin/pages/settings/layoutCustomize/DesignationOption.js:21
+#: assets/src/admin/pages/settings/layoutCustomize/DesignationOption.js:26
+msgid "Hide Designation"
+msgstr ""
+
+#: assets/js/dashboard.js:519
+#: assets/src/admin/pages/settings/layoutCustomize/DesignationOption.js:46
+msgid "Set Designation Margin Bottom"
+msgstr ""
+
+#: assets/js/dashboard.js:519
+#: assets/src/admin/pages/settings/layoutCustomize/DesignationOption.js:54
+msgid "Designation Color"
+msgstr ""
+
+#: assets/js/dashboard.js:529
+#: assets/src/admin/pages/settings/layoutCustomize/ExtraBioOption.js:21
+msgid "Hide Extra Bio"
+msgstr ""
+
+#: assets/js/dashboard.js:529
+#: assets/src/admin/pages/settings/layoutCustomize/ExtraBioOption.js:26
+msgid "Hide extra_bio"
+msgstr ""
+
+#: assets/js/dashboard.js:529
+#: assets/src/admin/pages/settings/layoutCustomize/ExtraBioOption.js:41
+msgid "Extra Bio Style"
+msgstr ""
+
+#: assets/js/dashboard.js:529
+#: assets/src/admin/pages/settings/layoutCustomize/ExtraBioOption.js:61
+msgid "Padding"
+msgstr ""
+
+#: assets/js/dashboard.js:529
+#: assets/src/admin/pages/settings/layoutCustomize/ExtraBioOption.js:65
+msgid "Set padding"
+msgstr ""
+
+#: assets/js/dashboard.js:529
+#: assets/js/dashboard.js:549
+#: assets/src/admin/pages/settings/layoutCustomize/ExtraBioOption.js:70
+#: assets/src/admin/pages/settings/layoutCustomize/SocialOption.js:52
+msgid "Space Between"
+msgstr ""
+
+#: assets/js/dashboard.js:529
+#: assets/src/admin/pages/settings/layoutCustomize/ExtraBioOption.js:74
+msgid "Set extra bio space between"
+msgstr ""
+
+#: assets/js/dashboard.js:529
+#: assets/js/dashboard.js:539
+#: assets/js/dashboard.js:549
+#: assets/src/admin/pages/settings/layoutCustomize/ExtraBioOption.js:79
+#: assets/src/admin/pages/settings/layoutCustomize/ProfileOption.js:29
+#: assets/src/admin/pages/settings/layoutCustomize/SocialOption.js:79
+msgid "Border Radius"
+msgstr ""
+
+#: assets/js/dashboard.js:529
+#: assets/src/admin/pages/settings/layoutCustomize/ExtraBioOption.js:83
+msgid "Set extra bio border radius"
+msgstr ""
+
+#: assets/js/dashboard.js:539
+#: assets/src/admin/pages/settings/layoutCustomize/ProfileOption.js:19
+msgid "Hide Profile Image"
+msgstr ""
+
+#: assets/js/dashboard.js:539
+#: assets/src/admin/pages/settings/layoutCustomize/ProfileOption.js:24
+msgid "Hide profile image"
+msgstr ""
+
+#: assets/js/dashboard.js:539
+#: assets/src/admin/pages/settings/layoutCustomize/ProfileOption.js:34
+msgid "Set profile image border radius"
+msgstr ""
+
+#: assets/js/dashboard.js:549
+#: assets/src/admin/pages/settings/layoutCustomize/SocialOption.js:21
+msgid "Hide Social"
+msgstr ""
+
+#: assets/js/dashboard.js:549
+#: assets/src/admin/pages/settings/layoutCustomize/SocialOption.js:26
+msgid "Hide social"
+msgstr ""
+
+#: assets/js/dashboard.js:549
+#: assets/src/admin/pages/settings/layoutCustomize/SocialOption.js:32
+msgid "Social Style"
+msgstr ""
+
+#: assets/js/dashboard.js:549
+#: assets/src/admin/pages/settings/layoutCustomize/SocialOption.js:56
+msgid "Set social space between"
+msgstr ""
+
+#: assets/js/dashboard.js:549
+#: assets/src/admin/pages/settings/layoutCustomize/SocialOption.js:61
+msgid "Width"
+msgstr ""
+
+#: assets/js/dashboard.js:549
+#: assets/src/admin/pages/settings/layoutCustomize/SocialOption.js:65
+msgid "Set social width"
+msgstr ""
+
+#: assets/js/dashboard.js:549
+#: assets/src/admin/pages/settings/layoutCustomize/SocialOption.js:70
+msgid "Height"
+msgstr ""
+
+#: assets/js/dashboard.js:549
+#: assets/src/admin/pages/settings/layoutCustomize/SocialOption.js:74
+msgid "Set social height"
+msgstr ""
+
+#: assets/js/dashboard.js:549
+#: assets/src/admin/pages/settings/layoutCustomize/SocialOption.js:83
+msgid "Set social border radius"
+msgstr ""
+
+#: assets/js/dashboard.js:559
+#: assets/src/admin/pages/shortcodes/AuthorBoxShortcode.js:72
+msgid "Select Authors"
+msgstr ""
+
+#: assets/js/dashboard.js:559
+#: assets/src/admin/pages/shortcodes/AuthorBoxShortcode.js:78
+msgid "Please select the authors"
+msgstr ""
+
+#: assets/js/dashboard.js:559
+#: assets/src/admin/pages/shortcodes/AuthorBoxShortcode.js:110
+msgid "Generate Shortcode"
+msgstr ""
+
+#: assets/js/dashboard.js:559
+#: assets/src/admin/pages/shortcodes/AuthorBoxShortcode.js:117
+msgid "Copy the shortcode and paste where you want to show"
+msgstr ""
+
+#: assets/js/dashboard.js:569
+#: assets/src/admin/pages/shortcodes/LikeDislikeShortcode.js:31
+msgid "Copy the shortcode and paste where you want to show "
+msgstr ""
+
+#: assets/js/dashboard.js:579
+#: assets/src/admin/pages/shortcodes/index.js:28
+msgid "Authorbox Shortcode"
+msgstr ""
+
+#: assets/js/dashboard.js:579
+#: assets/src/admin/pages/shortcodes/index.js:29
+msgid "Generate Author box shortcode"
+msgstr ""
+
+#: assets/js/dashboard.js:579
+#: assets/src/admin/pages/shortcodes/index.js:36
+msgid "Like Dislike Box Shortcode"
+msgstr ""
+
+#: assets/js/dashboard.js:579
+#: assets/src/admin/pages/shortcodes/index.js:37
+#: assets/src/admin/pages/shortcodes/index.js:45
+msgid "Generate Like Dislike box shortcode"
+msgstr ""
+
+#: assets/js/dashboard.js:579
+#: assets/src/admin/pages/shortcodes/index.js:44
+msgid "Top Voted Post Shortcode"
+msgstr ""
+
+#: assets/js/dashboard.js:579
+#: assets/src/admin/pages/shortcodes/index.js:77
+msgid "Generate"
+msgstr ""
+
+#: assets/js/frontend.js:169
+#: assets/src/frontend/pages/like-dislike/FeedBackForm.js:46
+msgid "Please provide feedback on how we can improve? (optional)"
+msgstr ""
+
+#: assets/js/frontend.js:169
+#: assets/src/frontend/pages/like-dislike/FeedBackForm.js:51
+msgid "Submit"
+msgstr ""
+
+#: assets/js/frontend.js:169
+#: assets/src/frontend/pages/like-dislike/FeedBackForm.js:55
+msgid "Close"
+msgstr ""
+
+#: assets/js/frontend.js:179
+#: assets/src/frontend/pages/like-dislike/index.js:149
+msgid "Like"
+msgstr ""
+
+#: assets/js/frontend.js:179
+#: assets/src/frontend/pages/like-dislike/index.js:159
+msgid "Dislike"
+msgstr ""
+
+#: assets/js/frontend.js:179
+#: assets/src/frontend/pages/like-dislike/index.js:168
+msgid "Love"
+msgstr ""
+
+#: assets/js/frontend.js:179
+#: assets/src/frontend/pages/like-dislike/index.js:178
+msgid "Angry"
+msgstr ""
