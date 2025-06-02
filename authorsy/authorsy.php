@@ -4,7 +4,7 @@
  * Plugin Name:       Authorsy
  * Plugin URI:        https://themeplugs.com/
  * Description:       Author box and bio link for WordPress.
- * Version:           1.0.4
+ * Version:           1.0.5
  * Requires at least: 5.2
  * Requires PHP:      7.3
  * Author:            themeplugs
@@ -53,7 +53,7 @@ final class Authorsy {
      * @return string
      */
     public static function get_version() {
-        return '1.0.4';
+        return '1.0.5';
     }
 
     /**

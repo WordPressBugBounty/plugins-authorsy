@@ -1,9 +1,9 @@
 ===WP Author box, Bio link and Post Rating - Authorsy===
-Contributors: themeplugs,themewinter, abrasel600
+Contributors: themeplugs,abrasel600
 Tags: author box, Post Rating, author bio,Multiple author, guest author
 Requires at least: 5.2
-Tested up to: 6.7
-Stable tag: 1.0.4
+Tested up to: 6.8
+Stable tag: 1.0.5
 Requires PHP: 7.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -77,6 +77,9 @@ Seamlessly integrate author profiles and author boxes anywhere on your website u
 4. screenshot-4
 
 == Changelog ==
+= 1.0.5 =
+- Tweak: Compatibility with WordPress 6.8.
+
 = 1.0.4 =
 - Added: Role capabilities for guest users.
 - Tweak: Compatibility with WordPress 6.7.
