@@ -61,7 +61,10 @@ class Enqueue_Inline
         $primary_color   = authorsy_get_option('primary_color');
         $secondary_color = authorsy_get_option('secondary_color');
         $ea_custom_css = authorsy_get_option('ea_custom_css');
-        if(is_single()){
+        if(is_single() && !empty($ea_custom_css)){
+            // Additional sanitization for output to prevent XSS
+            $ea_custom_css = wp_strip_all_tags($ea_custom_css);
+            $ea_custom_css = esc_html($ea_custom_css);
             $custom_css.= $ea_custom_css;
         }
      
@@ -124,5 +127,10 @@ class Enqueue_Inline
         wp_register_style('authorsy-custom-css', false);
         wp_enqueue_style('authorsy-custom-css');
         wp_add_inline_style('authorsy-custom-css', $custom_css);
+        
+        // Add Content Security Policy header for additional XSS protection
+        if ( ! headers_sent() ) {
+            header( "Content-Security-Policy: style-src 'self' 'unsafe-inline';" );
+        }
     }
 }

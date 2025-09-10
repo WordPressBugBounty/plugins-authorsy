@@ -21,7 +21,16 @@ final class Bootstrap {
      */
     private static $instance;
 
+	/**
+	 * @var string $file The plugin file path.
+	 * @since 1.0.0
+	 */
 	private $file;
+	
+	/**
+	 * @var string $version The plugin version.
+	 * @since 1.0.0
+	 */
 	public $version;
     /**
      * Throw Error While Trying To Clone Object

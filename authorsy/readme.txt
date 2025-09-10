@@ -1,108 +1,130 @@
-===WP Author box, Bio link and Post Rating - Authorsy===
-Contributors: themeplugs,abrasel600
-Tags: author box, Post Rating, author bio,Multiple author, guest author
+=== Authorsy – Author Box, Multiple Authors, Guest Authors & Post Rating ===
+Contributors: themeplugs, abrasel600
+Tags: author box, author profile, multiple authors, guest authors, author bio, post rating, co-authors, author widget
 Requires at least: 5.2
 Tested up to: 6.8
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 Requires PHP: 7.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Enhance WordPress sites with Authorsy: Customizable author profiles, social links, photo, reviews. Elevate engagement effortlessly.
+Authorsy is a powerful WordPress author box plugin. Add customizable author profiles, multiple authors, guest authors, bios, social links, and post rating.
 
 == Description ==
-  
-Enhance your WordPress website with our Author Box Plugin! Display attractive and informative author profiles at the end of your articles. Easily customize the design and content to showcase author bios, social links, and more. Engage your readers and build trust by giving credit to your talented writers with this user-friendly plugin.
 
-*Need help setting up your  Website? 👉 [Contact Us Here](https://themewinter.com/support).*
+**Authorsy** is a complete **WordPress author box plugin** that helps you showcase your writers with style. Display author profiles, bios, photos, and social links at the end of your posts. Highlight single or multiple authors, support guest authors, and engage readers with post rating options.
 
-*A few more helpful links here 👇*
+Perfect for **blogs, magazines, multi-author sites, or collaborative content**, Authorsy lets you build trust with your audience while giving credit to every contributor.
 
-*[Live Demo](https://product.themewinter.com/authorsy/) | [Buy Pro](https://themewinter.com/authorsy/) | [Documentation](https://support.themewinter.com/docs/plugins/docs/authorsy/) | [Roadmaps](https://app.loopedin.io/authorsy)*
+👉 [Live Demo](https://product.themewinter.com/authorsy/) | [Buy Pro](https://themewinter.com/authorsy/) | [Documentation](https://support.themewinter.com/docs/plugins/docs/authorsy/) | [Roadmaps](https://app.loopedin.io/authorsy)
 
-##⭐ Authorsy Features:##
+---
 
-##👉 Custom Author Profiles##
-Create custom profiles for each author with detailed information such as bio, social media links, profile picture, and more.
+### 🎯 Why Use Authorsy?
+- Showcase **professional author profiles** with bios, photos, and social links.  
+- Add **multiple authors or guest authors** to posts.  
+- Improve **engagement with author recognition and post ratings.**  
+- Fully customizable to match your **theme and branding.**
 
-##👉 Author Box Widget##
-Display author information at the end of each post with a customizable author box widget.
+---
 
-##👉 Multiple Authors Support##
-Easily assign multiple authors to a single post or page, perfect for collaborative content creation.
+### ✅ Free Features
 
-##👉 Guest Authors##
-Allow guest authors to contribute to your website while maintaining a polished authorship presentation.
+- **Custom Author Profiles** – Add bios, profile photos, and social links.  
+- **Author Box Widget** – Display at the end of posts or pages.  
+- **Multiple Authors Support** – Assign more than one author to a post.  
+- **Guest Authors** – Let external writers contribute without WP accounts.  
+- **Customization Options** – Change colors, layouts, and styles.  
+- **Shortcodes** – Insert author info anywhere.  
 
-##👉 Customization Options##
-Customize the appearance of author profiles and author boxes to match your website's design and branding.
+---
 
-##👉 Shortcode##
-Seamlessly integrate author profiles and author boxes anywhere on your website using simple shortcodes.
+### 🌟 Authorsy Pro Features
 
-=🌟🌟 Authorsy Pro Special Features 🌟🌟=
+> **Available only in [Authorsy Pro](https://themewinter.com/authorsy/)**  
 
-> **Premium features only available in <a href="https://themewinter.com/authorsy/">Authorsy Pro</a>**
->
+- Author Box on Hover  
+- More Author Box Layouts  
+- Custom Post Type Support  
+- Extra Bio Fields  
+- Custom Styles and Position (before/after content)  
+- Like / Dislike Voting Box  
+- Post Rating Restrictions (IP, Cookie, Logged-in)  
+- Voting Reports and Analytics  
+- Social Share for Positive Feedback  
+- Private Feedback for Negative Feedback  
+- Top Voted Posts Block  
 
-> * Author Box on Hover
-> * More Author Box Layout
-> * Custom post type support
-> * More social layouts
-> * Extra bio
-> * Custom Styles Option
-> * Change author box position to before/after content
-> * Like Dislike Box
-> * Enable disable option for individual post
-> * Vote Restriction by IP
-> * Vote Restriction by Cookie
-> * Vote Restriction by loggedin user
-> * Vote reports
-> * Social share option if positive
-> * Private Feedback option if negative
-> * Top Voted post block
-
-<a href="https://themewinter.com/authorsy/">Read more</a> about the Authorsy  advanced features.
-
-🔔 **Check all of our [plugins](https://themewinter.com/)**
-👉 [Eventin](https://themewinter.com/eventin)
-👉 [WPCafe](https://themewinter.com/wp-cafe/)
-👉 [WP Timetics](https://arraytics.com/timetics)
+---
 
 == Screenshots ==
-
+  
 1. screenshot-1
 2. screenshot-2
 3. screenshot-3
 4. screenshot-4
 
-== Changelog ==
+
+---
+
+### 🔄 Changelog
+
+= 1.0.6 =
+- Security improvements: sanitization, nonce verification, CSP headers.  
+- Rate limiting added to prevent abuse.  
+
 = 1.0.5 =
-- Tweak: Compatibility with WordPress 6.8.
+- Compatibility update with WordPress 6.8.  
 
 = 1.0.4 =
-- Added: Role capabilities for guest users.
-- Tweak: Compatibility with WordPress 6.7.
+- Added guest user role capabilities.  
+- Compatibility with WordPress 6.7.  
 
- = 1.0.3=
- - Translations update
+= 1.0.3 =
+- Translations update.  
 
- = 1.0.2=
-- WP 6.6 Compatible
+= 1.0.2 =
+- WP 6.6 Compatible.  
 
-= 1.0.1=
-- WP 6.5 Compatible
-- Performance Update
+= 1.0.1 =
+- WP 6.5 Compatible.  
+- Performance improvements.  
 
-= 1.0.0=
-- initial release
+= 1.0.0 =
+- Initial release.  
 
-== Upgrade Notice ==
+---
 
+### 🚀 Upgrade Notice
 
-== Installation ==
+= 1.0.6 =
+Important security updates. Strongly recommended for all users.  
 
+---
 
-1. Upload the plugin files to the `/wp-content/plugins/authorsy` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-1. All Settings will be found in Admin sidebar -> Authorsy
+### 💡 Frequently Asked Questions
+
+**1. Does Authorsy support multiple authors?**  
+Yes! You can assign multiple authors to any post or page.  
+
+**2. Can I add guest authors without creating WordPress accounts?**  
+Absolutely. Authorsy lets you add and manage guest authors easily.  
+
+**3. Does it work with SEO plugins?**  
+Yes. Works with Yoast, Rank Math, and All in One SEO to improve author schema.  
+
+**4. Can I customize the author box design?**  
+Yes, you can fully customize layouts, colors, and positions.  
+
+**5. Does Authorsy support page builders?**  
+Yes. It works with Gutenberg, Elementor, and other popular builders.  
+
+---
+
+### 🔔 More Plugins by Us
+- [Eventin](https://themewinter.com/eventin) – Event management and ticketing.  
+- [WPCafe](https://themewinter.com/wp-cafe/) – Food ordering and restaurant management.  
+- [WP Timetics](https://arraytics.com/timetics) – Appointment and scheduling.  
+- [Poptics](https://aethonic.com/poptics) – AI Powered Popup Builder.  
+- [Booktics](https://arraytics.com/booktics) – Service Booking WordPress Plugin.  
+
