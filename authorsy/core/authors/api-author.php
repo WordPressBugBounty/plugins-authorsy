@@ -46,7 +46,8 @@ class Api_Author extends Api {
                     'methods'             => \WP_REST_Server::READABLE,
                     'callback'            => [ $this, 'get_items' ],
                     'permission_callback' => function () {
-                        return true;
+                        // Require administrator privileges to access sensitive author data
+                        return current_user_can( 'manage_options' );
                     },
                 ],
                 [
@@ -88,7 +89,8 @@ class Api_Author extends Api {
                     'methods'             => \WP_REST_Server::READABLE,
                     'callback'            => [ $this, 'get_item' ],
                     'permission_callback' => function () {
-                        return true;
+                        // Require administrator privileges to access sensitive author data
+                        return current_user_can( 'manage_options' );
                     },
                 ],
                 [

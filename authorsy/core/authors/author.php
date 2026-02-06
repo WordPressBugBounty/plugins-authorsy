@@ -248,16 +248,14 @@ class Author {
      * @return array
      */
     public function get_data() { 
-        return [
+        $is_authenticated = is_user_logged_in();
+        
+        $data = [
             'id'         => $this->get_id(),
             'full_name'  => $this->get_full_name(),
             'first_name' => $this->get_first_name(),
             'last_name'  => $this->get_last_name(),
-            'user_name'  => $this->get_user_name(),
-            'user_email' => $this->get_email(),
-            'phone'      => $this->get_phone(),
             'image'      => $this->get_image(), 
-            'role'       => $this->get_user_role(),
             'social'     => $this->get_social(),
             'extra_bio'  => $this->get_extra_bio(),
             'description'=> $this->get_description(),
@@ -265,20 +263,30 @@ class Author {
             'image_id'   => $this->get_image_id(),
             'permalink'  => $this->get_permalink()
         ];
+        
+        // Only include sensitive fields for authenticated users
+        if ( $is_authenticated ) {
+            $data['user_name']  = $this->get_user_name();
+            $data['user_email'] = $this->get_email();
+            $data['phone']      = $this->get_phone();
+            $data['role']       = $this->get_user_role();
+        }
+        
+        return $data;
     }
     /**
-     * Get all data for a author
+     * Get all data for a author (frontend/public version)
      *
      * @return array
      */
     public function get_frontend_data() { 
-        return [
+        $is_authenticated = is_user_logged_in();
+        
+        $data = [
             'full_name'  => $this->get_full_name(),
             'first_name' => $this->get_first_name(),
             'last_name'  => $this->get_last_name(),  
-            'phone'      => $this->get_phone(),
             'image'      => $this->get_image(), 
-            'role'       => $this->get_user_role(),
             'social'     => $this->get_social(),
             'extra_bio'  => $this->get_extra_bio(),
             'description'=> $this->get_description(),
@@ -286,6 +294,14 @@ class Author {
             'image_id'   => $this->get_image_id(),
             'permalink'  => $this->get_permalink()
         ];
+        
+        // Only include phone and role for authenticated users
+        if ( $is_authenticated ) {
+            $data['phone'] = $this->get_phone();
+            $data['role']  = $this->get_user_role();
+        }
+        
+        return $data;
     }
 
     /**

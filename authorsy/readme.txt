@@ -1,9 +1,9 @@
 === Authorsy – Author Box, Multiple Authors, Guest Authors & Post Rating ===
-Contributors: themeplugs, abrasel600
+Contributors: themeplugs
 Tags: author box, author profile, multiple authors, guest authors, author bio, post rating, co-authors, author widget
 Requires at least: 5.2
-Tested up to: 6.8
-Stable tag: 1.0.6
+Tested up to: 6.9
+Stable tag: 1.0.7
 Requires PHP: 7.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -68,6 +68,9 @@ Perfect for **blogs, magazines, multi-author sites, or collaborative content**, 
 ---
 
 ### 🔄 Changelog
+= 1.0.7 =
+- Tweak: Security Performance improvement.  
+- Tweak: WordPress 6.9 Compatibility
 
 = 1.0.6 =
 - Security improvements: sanitization, nonce verification, CSP headers.  
